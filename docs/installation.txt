@@ -16,3 +16,6 @@ python -m flask run
 
 
 .main - . means the current directory and main is a file in that directory
+
+{{ }}
+{% %} - used to talk to html file
