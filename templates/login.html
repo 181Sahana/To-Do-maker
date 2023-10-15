@@ -15,13 +15,13 @@
 {% block content %}
 <div id="login-form-wrap">
     <h2>Login</h2>
-    <form id="login-form">
+    <form method="post" id="login-form" action="/login">
       <p>
-      <input type="text" id="username" name="username" placeholder="Username" required><i class="validation"><span></span><span></span></i>
-      </p>
+        <input type="email" id="email" name="email" placeholder="email" required><i class="validation"><span></span><span></span></i>
+        </p>
       <p>
-      <input type="email" id="email" name="email" placeholder="Email Address" required><i class="validation"><span></span><span></span></i>
-      </p>
+      <input type="text" id="username" name="password" placeholder="password" required><i class="validation"><span></span><span></span></i>
+      </p> 
       <p>
       <input type="submit" id="login" value="Login">
       </p>

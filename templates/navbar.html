@@ -41,7 +41,8 @@
 </head>
 <body>
     <nav id="navbar">
-        <a id="nav" href="{{url_for('main.index')}}">To Do List</a>
+        <p id="nav">To Do List</p>
+        <a id="auth" href="{{url_for('main.to_do')}}">My To-Do</a>
         <a id='auth' href="{{ url_for('auth.signup') }}">SIGN UP</a>
         <a id='auth' href="{{ url_for('auth.login') }}">LOGIN</a>
       </nav>

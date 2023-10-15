@@ -1,0 +1,18 @@
+{% extends "navbar.html" %} {% block head %} {{ super() }}
+
+<link 
+    rel="stylesheet" 
+    href="{{ url_for('static', filename='index.css') }}" 
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Libre+Baskerville&family=Playfair+Display:ital@0;1&display=swap"
+  rel="stylesheet"
+/>
+
+{% endblock %}
+
+{% block content %}
+
+<p><b>Welcome to TO-DO-MAKER</b></p>
+
+{% endblock %}
